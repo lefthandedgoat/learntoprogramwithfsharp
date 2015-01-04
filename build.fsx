@@ -56,7 +56,7 @@ let gitOwner = "lefthandedgoat"
 let gitHome = "https://github.com/" + gitOwner
 
 // The name of the project on GitHub
-let gitName = "learntoprogramfsharp"
+let gitName = "learntoprogramwithfsharp"
 
 // The url for the raw files hosted
 let gitRaw = environVarOrDefault "gitRaw" "https://raw.github.com/lefthandedgoat"
