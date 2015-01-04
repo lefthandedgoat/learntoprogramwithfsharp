@@ -300,8 +300,8 @@ Target "Release" (fun _ ->
     Git.Commit.Commit "" (sprintf "Bump version to %s" release.NugetVersion)
     Branches.push ""
 
-    Branches.tag "" release.NugetVersion
-    Branches.pushTag "" "origin" release.NugetVersion
+//    Branches.tag "" release.NugetVersion
+//    Branches.pushTag "" "origin" release.NugetVersion
     
     // release on github
     createClient (getBuildParamOrDefault "github-user" "") (getBuildParamOrDefault "github-pw" "")
