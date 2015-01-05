@@ -67,7 +67,7 @@ let dateOfBirth = System.DateTime(1977, 2, 14)
 Values hold information in our programs. 
 Above we have many pieces of information about Bob Smith, all stored in their own value. 
 We can use values with other values to create new values, as is the case with `fullName`.
-Note: By default, values can not be changed once set.  They different from `variables` that you may have read about in other programming languages.
+Note: By default, values can not be changed once set.  They differs from `variables` that you may have read about in other programming languages.
 
 ### Types
 
