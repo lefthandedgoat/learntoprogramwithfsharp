@@ -133,43 +133,55 @@ Note: By default, values can not be changed once set.  They different from <code
 There are many different types built in to F#. 
 We will start with a few basic ones now, and expand on more later.</p>
 
-<p><code>firstName</code> is of type <code>string</code>.  A <code>string</code> is a series of characters. It can contain any number of characters, from 0 up to the whole contents of a book and more!<br />
-<code>lastName</code> is of type <code>string</code><br />
-<code>fullName</code> is a <code>function</code> of type <code>string -&gt; string -&gt; string</code>.  This reads as <code>a function that takes a string, a string, and returns a string</code> (more on this later).<br />
-<code>shoeSize</code> is of type <code>int</code> (integer).  An <code>int</code> is a whole number.<br />
-<code>height</code> is of type <code>float</code>.  <code>float</code> is used to store values with decimal places.<br />
-<code>married</code> is of type <code>bool</code> (boolean).  A <code>bool</code> can only have one of two values.  It is either <code>true</code> or <code>false</code>.<br />
-<code>dateOfBirth</code> is of type <code>DateTime</code>.  <code>DateTime</code> stores date and time information.</p>
-
-<h3>Football Example</h3>
-
 <table>
 <thead>
 <tr class="header">
-<th><p>Tables</p></th>
-<th align="center"><p>Are</p></th>
-<th align="right"><p>Cool</p></th>
+<th><p>Value</p></th>
+<th><p>Is of type</p></th>
+<th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>col 3 is</p></td>
-<td align="center"><p>right-aligned</p></td>
-<td align="right"><p>$1600</p></td>
+<td><p><code>firstName</code></p></td>
+<td><p><code>string</code></p></td>
+<td><p>A <code>string</code> is a series of characters. It can contain any number of characters, from 0 up to the whole contents of a book and more!</p></td>
 </tr>
 <tr class="even">
-<td><p>col 2 is</p></td>
-<td align="center"><p>centered</p></td>
-<td align="right"><p>$12</p></td>
+<td><p><code>lastName</code></p></td>
+<td><p><code>string</code></p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>zebra stripes</p></td>
-<td align="center"><p>are neat</p></td>
-<td align="right"><p>$1</p></td>
+<td><p><code>fullName</code></p></td>
+<td><p><code>function</code> of type <code>string -&gt; string -&gt; string</code></p></td>
+<td><p>This reads as <code>a function that takes a string, a string, and returns a string</code> (more on this later)</p></td>
+</tr>
+<tr class="even">
+<td><p><code>shoeSize</code></p></td>
+<td><p><code>int</code></p></td>
+<td><p>An <code>int</code> is a whole number</p></td>
+</tr>
+<tr class="odd">
+<td><p><code>height</code></p></td>
+<td><p><code>float</code></p></td>
+<td><p><code>float</code> is used to store values with decimal places</p></td>
+</tr>
+<tr class="even">
+<td><p><code>married</code></p></td>
+<td><p><code>bool</code></p></td>
+<td><p>A <code>bool</code> can only have one of two values.  It is either <code>true</code> or <code>false</code></p></td>
+</tr>
+<tr class="odd">
+<td><p><code>dateOfBirth</code></p></td>
+<td><p><code>System.DateTime</code></p></td>
+<td><p><code>System.DateTime</code> stores date and time information</p></td>
 </tr>
 </tbody>
 </table>
 
+
+<h3>Football Example</h3>
 
 <div class="tip" id="fs1">val printfn : format:Printf.TextWriterFormat&lt;&#39;T&gt; -&gt; &#39;T<br /><br />Full name: Microsoft.FSharp.Core.ExtraTopLevelOperators.printfn</div>
 <div class="tip" id="fs2">namespace System</div>
