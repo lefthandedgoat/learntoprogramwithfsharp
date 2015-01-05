@@ -28,7 +28,7 @@ open SourceLink
 
 // The name of the project
 // (used by attributes in AssemblyInfo, name of a NuGet package and directory in 'src')
-let project = "learntoprogramfsharp"
+let project = "learntoprogramwithfsharp"
 
 // Short summary of the project
 // (used as description in AssemblyInfo and as a short summary for NuGet package)
@@ -45,7 +45,7 @@ let authors = [ "Chris Holt" ]
 let tags = "f# fsharp"
 
 // File system information 
-let solutionFile  = "learntoprogramfsharp.sln"
+let solutionFile  = "learntoprogramwithfsharp.sln"
 
 // Pattern specifying assemblies to be tested using NUnit
 let testAssemblies = "tests/**/bin/Release/*Tests*.dll"

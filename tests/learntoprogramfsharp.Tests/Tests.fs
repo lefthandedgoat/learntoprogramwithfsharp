@@ -1,5 +1,5 @@
-module learntoprogramfsharp.Tests
+module learntoprogramwithfsharp.Tests
 
-open learntoprogramfsharp
+open learntoprogramwithfsharp
 
 //none now

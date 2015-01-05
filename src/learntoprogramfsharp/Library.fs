@@ -1,4 +1,4 @@
-namespace learntoprogramfsharp
+namespace learntoprogramwithfsharp
 
 /// Documentation for my library
 ///

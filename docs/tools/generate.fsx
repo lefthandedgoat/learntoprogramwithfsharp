@@ -4,19 +4,19 @@
 // --------------------------------------------------------------------------------------
 
 // Binaries that have XML documentation (in a corresponding generated XML file)
-let referenceBinaries = [ "learntoprogramfsharp.dll" ]
+let referenceBinaries = [ "learntoprogramwithfsharp.dll" ]
 // Web site location for the generated documentation
-let website = "/learntoprogramfsharp"
+let website = "/learntoprogramwithfsharp"
 
-let githubLink = "http://github.com/lefthandedgoat/learntoprogramfsharp"
+let githubLink = "http://github.com/lefthandedgoat/learntoprogramwithfsharp"
 
 // Specify more information about your project
 let info =
-  [ "project-name", "learntoprogramfsharp"
+  [ "project-name", "learntoprogramwithfsharp"
     "project-author", "Chris Holt"
     "project-summary", "a book to teach people how to program"
     "project-github", githubLink
-    "project-nuget", "http://nuget.org/packages/learntoprogramfsharp" ]
+    "project-nuget", "http://nuget.org/packages/learntoprogramwithfsharp" ]
 
 // --------------------------------------------------------------------------------------
 // For typical project, no changes are needed below

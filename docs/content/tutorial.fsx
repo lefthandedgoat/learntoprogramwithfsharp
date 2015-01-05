@@ -10,8 +10,8 @@ Introducing your project
 Say more
 
 *)
-#r "learntoprogramfsharp.dll"
-open learntoprogramfsharp
+#r "learntoprogramwithfsharp.dll"
+open learntoprogramwithfsharp
 
 Library.hello 0
 (**

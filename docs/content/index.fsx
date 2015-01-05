@@ -13,8 +13,8 @@ Documentation
   <div class="span1"></div>
   <div class="span6">
     <div class="well well-small" id="nuget">
-      The F# ProjectTemplate library can be <a href="https://nuget.org/packages/learntoprogramfsharp">installed from NuGet</a>:
-      <pre>PM> Install-Package learntoprogramfsharp</pre>
+      The F# ProjectTemplate library can be <a href="https://nuget.org/packages/learntoprogramwithfsharp">installed from NuGet</a>:
+      <pre>PM> Install-Package learntoprogramwithfsharp</pre>
     </div>
   </div>
   <div class="span1"></div>
@@ -26,8 +26,8 @@ Example
 This example demonstrates using a function defined in this sample library.
 
 *)
-#r "learntoprogramfsharp.dll"
-open learntoprogramfsharp
+#r "learntoprogramwithfsharp.dll"
+open learntoprogramwithfsharp
 
 printfn "hello = %i" <| Library.hello 0
 
@@ -59,9 +59,9 @@ The library is available under Public Domain license, which allows modification 
 redistribution for both commercial and non-commercial purposes. For more information see the 
 [License file][license] in the GitHub repository. 
 
-  [content]: https://github.com/fsprojects/learntoprogramfsharp/tree/master/docs/content
-  [gh]: https://github.com/fsprojects/learntoprogramfsharp
-  [issues]: https://github.com/fsprojects/learntoprogramfsharp/issues
-  [readme]: https://github.com/fsprojects/learntoprogramfsharp/blob/master/README.md
-  [license]: https://github.com/fsprojects/learntoprogramfsharp/blob/master/LICENSE.txt
+  [content]: https://github.com/fsprojects/learntoprogramwithfsharp/tree/master/docs/content
+  [gh]: https://github.com/fsprojects/learntoprogramwithfsharp
+  [issues]: https://github.com/fsprojects/learntoprogramwithfsharp/issues
+  [readme]: https://github.com/fsprojects/learntoprogramwithfsharp/blob/master/README.md
+  [license]: https://github.com/fsprojects/learntoprogramwithfsharp/blob/master/LICENSE.txt
 *)

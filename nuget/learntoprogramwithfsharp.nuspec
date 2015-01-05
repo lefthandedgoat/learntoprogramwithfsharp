@@ -5,8 +5,8 @@
     <version>@build.number@</version>
     <authors>@authors@</authors>
     <owners>@authors@</owners>
-    <licenseUrl>http://github.com/fsprojects/learntoprogramfsharp/blob/master/LICENSE.txt</licenseUrl>
-    <projectUrl>http://fsprojects.github.com/learntoprogramfsharp</projectUrl>
+    <licenseUrl>http://github.com/fsprojects/learntoprogramwithfsharp/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>http://fsprojects.github.com/learntoprogramwithfsharp</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/fsprojects/ProjectScaffold/master/docs/files/img/logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>@summary@</summary>
@@ -17,7 +17,7 @@
     <dependencies />
   </metadata>
   <files>
-    <file src="..\bin\learntoprogramfsharp.dll" target="lib/net40" />
-    <file src="..\bin\learntoprogramfsharp.pdb" target="lib/net40" />
+    <file src="..\bin\learntoprogramwithfsharp.dll" target="lib/net40" />
+    <file src="..\bin\learntoprogramwithfsharp.pdb" target="lib/net40" />
   </files>
 </package>
