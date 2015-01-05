@@ -4,64 +4,90 @@
 #I "../../bin"
 
 (**
-F# Project Scaffold
-===================
+### Getting Started
 
-Documentation
+1. Install Visual Studio 2013 [here][vs]
+2. Open Visual Studio
+3. Create a new project called LearnToProgram (F# Console Application)
+4. Clear the contents of the open file `Program.fs`
+5. Replace content with below code
+6. Press `F5` to run
 
-<div class="row">
-  <div class="span1"></div>
-  <div class="span6">
-    <div class="well well-small" id="nuget">
-      The F# ProjectTemplate library can be <a href="https://nuget.org/packages/learntoprogramwithfsharp">installed from NuGet</a>:
-      <pre>PM> Install-Package learntoprogramwithfsharp</pre>
-    </div>
-  </div>
-  <div class="span1"></div>
-</div>
-
-Example
--------
-
-This example demonstrates using a function defined in this sample library.
+  [vs]: http://www.visualstudio.com/en-us/news/vs2013-community-vs.aspx
 
 *)
-#r "learntoprogramwithfsharp.dll"
-open learntoprogramwithfsharp
-
-printfn "hello = %i" <| Library.hello 0
+printfn "Hello World"
+System.Console.ReadKey()
 
 (**
-Some more info
+You've just written you're first program!  Now let us add to it
+*)
 
-Samples & documentation
------------------------
+printfn "Enter your name then press [enter]:"
+let name = System.Console.ReadLine()
+printfn "Hello World, from %s" name
+System.Console.ReadKey()
 
-The library comes with comprehensible documentation. 
-It can include tutorials automatically generated from `*.fsx` files in [the content folder][content]. 
-The API reference is automatically generated from Markdown comments in the library implementation.
+(**
+Press `F5` to run!  The program should allow you type a name, like 'Bob', then print `Hello World, from Bob`
 
- * [Tutorial](tutorial.html) contains a further explanation of this sample library.
+### What are Programs?
 
- * [API Reference](reference/index.html) contains automatically generated documentation for all types, modules
-   and functions in the library. This includes additional brief samples on using most of the
-   functions.
- 
-Contributing and copyright
---------------------------
+Programs are sets of instructions that tell a computer what to do.  Operating Systems like Windows or OSX are programs. 
+Websites like online stores and search engines are programs.  Apps on your phone's App Store are programs.
 
-The project is hosted on [GitHub][gh] where you can [report issues][issues], fork 
-the project and submit pull requests. If you're adding a new public API, please also 
-consider adding [samples][content] that can be turned into a documentation. You might
-also want to read the [library design notes][readme] to understand how it works.
+Programs are written for many reasons.  This book will teach you how to write programs. 
+We will start with basic programs that run from the console (MS-DOS) and grow from there.  
 
-The library is available under Public Domain license, which allows modification and 
-redistribution for both commercial and non-commercial purposes. For more information see the 
-[License file][license] in the GitHub repository. 
+### What is F# (FSharp)?
+  todo
+  todo
+  todo
 
-  [content]: https://github.com/fsprojects/learntoprogramwithfsharp/tree/master/docs/content
-  [gh]: https://github.com/fsprojects/learntoprogramwithfsharp
-  [issues]: https://github.com/fsprojects/learntoprogramwithfsharp/issues
-  [readme]: https://github.com/fsprojects/learntoprogramwithfsharp/blob/master/README.md
-  [license]: https://github.com/fsprojects/learntoprogramwithfsharp/blob/master/LICENSE.txt
+### What have you seen so far?
+
+Thus far you have seen an example of using `printfn` which prints value(s) to the console. 
+You have also seen `System.Console.ReadLine()` which reads a line from the console, and set a new value named `name` with the results. 
+We then used `printfn` again to print Hello World and the name that was stored in the value named `name`. 
+Lastly we told the console to wait for any key press with `System.Console.ReadKey()`. 
+Afer a key was pressed the last line of our program was done executing and the program was done running.
+
+### Values
+*)
+
+let firstName = "Bob"
+let lastName = "Smith"
+let fullName firstName lastName = firstName + " " + lastName
+let shoeSize = 12
+let height = 72.5
+let married = false
+let dateOfBirth = System.DateTime(1977, 2, 14)
+
+(**
+Values hold information in our programs. 
+Above we have many pieces of information about Bob Smith, all stored in their own value. 
+We can use values with other values to create new values, as is the case with `fullName`.
+Note: By default, values can not be changed once set.  They different from `variables` that you may have read about in other programming languages.
+
+### Types
+
+Each of the above values has a type.  Types are a way to represent data to a computer. 
+There are many different types built in to F#. 
+We will start with a few basic ones now, and expand on more later.
+
+| Value          | Is of type                                       | Description                                                                                                                        |
+| :------------- |:-------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------|
+| `firstName`    | `string`                                         | A `string` is a series of characters. It can contain any number of characters, from 0 up to the whole contents of a book and more! |
+| `lastName`     | `string`                                         |                                                                                                                                    |
+| `fullName`     | `string -> string -> string`                     | This reads as `a function that takes a string, a string, and returns a string` (more on this later)                                |
+| `shoeSize`     | `int`                                            | An `int` is a whole number                                                                                                         |
+| `height`       | `float`                                          | `float` is used to store values with decimal places                                                                                |
+| `married`      | `bool`                                           | A `bool` can only have one of two values.  It is either `true` or `false`                                                          |
+| `dateOfBirth`  | `System.DateTime`                                | `System.DateTime` stores date and time information                                                                                 |
+
+### Football Example
+  todo
+  todo
+  todo
+
 *)

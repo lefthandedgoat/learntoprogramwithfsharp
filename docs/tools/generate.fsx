@@ -12,7 +12,8 @@ let githubLink = "http://github.com/lefthandedgoat/learntoprogramwithfsharp"
 
 // Specify more information about your project
 let info =
-  [ "project-name", "learntoprogramwithfsharp"
+  [ "project-name", "learn to program with f#"
+    "project-subtitle", "adventures with ben and cindy"
     "project-author", "Chris Holt"
     "project-summary", "a book to teach people how to program"
     "project-github", githubLink
